@@ -8,6 +8,8 @@ django = "*"
 pylint = "*"
 black = {extras = ["d"], version = "*"}
 mysqlclient = "*"
+djangorestframework = "*"
+djoser = "*"
 
 [dev-packages]
 
