@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "littlelemoncapstoneback"
+version = "0.1.0"
+description = ""
+authors = ["arvidtorbjoernsen <47952684+arvidtorbjoernsen@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11.5"
+django = "^4.2.5"
+pylint = "^2.17.5"
+black = "^23.9.1"
+djangorestframework = "^3.14.0"
+djoser = "^2.2.0"
+mysqlclient = "^2.2.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
